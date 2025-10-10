@@ -8,7 +8,7 @@ function App() {
   const [button,setButton] = useState(0);
 
   function handleswitch(){
-    setButton(prev => (prev === 0 ? 1 : 0)); //get the previous value and chnage accordingly
+    setButton(prev => (prev === 0 ? 1 : 0)); //get the previous
   }
 
   return (
